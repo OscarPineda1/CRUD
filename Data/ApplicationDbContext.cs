@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<CRUD.Models.Product> DataProducts { get; set; }
 }
